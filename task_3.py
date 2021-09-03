@@ -3,7 +3,7 @@
 # медианы, в другой — не больше медианы.
 import random
 
-numbers = [random.randint(0, 100) for _ in range(9)]
+numbers = [random.randint(0, 50) for _ in range(9)]
 
 
 def median(num):
